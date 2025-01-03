@@ -28,7 +28,7 @@ This project showcases how to perform CRUD (Create, Read, Update, Delete) operat
 sales_df = load_sales_data('path_to_your_csv')
 
 # Create a new sale entry
-sales_df = create_sale(sales_df, transaction_id=1001, timestamp='01-01-2024 12:00',
+sales_df = create_sale(sales_df, transaction_id=1001, timestamp='01-01-2025 12:00',
                        customer_id=6789, product_id=789, product_category='Electronics',
                        quantity=5, price=150.0, discount=0.1, payment_method='Credit Card',
                        customer_age=25, customer_gender='Male', customer_location='Europe',
