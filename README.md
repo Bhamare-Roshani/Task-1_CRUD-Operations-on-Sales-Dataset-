@@ -1,21 +1,27 @@
 # Task-1_CRUD-Operations-on-Sales-Dataset-
-CRUD Operations on Sales Dataset 
-Sales Data Management with Python and Pandas
+
 This project showcases how to perform CRUD (Create, Read, Update, Delete) operations on a sales dataset using Python and the pandas library. The dataset is stored in a CSV file, and the project includes functions to manage sales data, such as adding new sales records, updating existing ones, and deleting transactions.
 
-Features
-Create: Add new sales entries to the dataset.
-Read: View the current sales data.
-Update: Modify existing sales entries based on transaction ID.
-Delete: Remove specific sales records by transaction ID.
-Save: Persist changes back to the CSV file.
-Requirements
-Python 3.x
-pandas library
-Usage
-Clone this repository.
-Install the required packages using pip install pandas.
-Run the script to manage your sales data.
+## Features
+
+- **Create**: Add new sales entries to the dataset.
+- **Read**: View the current sales data.
+- **Update**: Modify existing sales entries based on transaction ID.
+- **Delete**: Remove specific sales records by transaction ID.
+- **Save**: Persist changes back to the CSV file.
+
+## Requirements
+
+- Python 3.x
+- pandas library
+
+## Usage
+
+1. Clone this repository.
+2. Install the required packages using `pip install pandas`.
+3. Run the script to manage your sales data.
+
+```python
 # Example usage:
 
 # Load sales data
