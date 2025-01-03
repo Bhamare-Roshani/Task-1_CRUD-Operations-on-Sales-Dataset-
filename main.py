@@ -9,8 +9,8 @@ def save_sales_data(sales_df, file_path):
     sales_df.to_csv(file_path, index=False)
 
 # Function to create a new sale entry
-def create_sale(sales_df, transaction_id, timestamp, customer_id, product_id, 
-                product_category, quantity, price, discount, payment_method, 
+def create_sale(sales_df, transaction_id, timestamp, customer_id, product_id,
+                product_category, quantity, price, discount, payment_method,
                 customer_age, customer_gender, customer_location, total_amount):
     new_sale = pd.DataFrame([{
         'transaction_id': transaction_id,
